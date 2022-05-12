@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>kalista's date generator</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap" rel="stylesheet">
+    <style>
+    </style>
+
+</head>
+<body>
+
+    <script src="date.js"></script>
+    <script></script>
+    <div id="heading">
+        <h1>kalista's wonderful date generator</h1>
+        <h3>a project by kalista</h3>
+    </div>
+    <div class="screen">
+            <div class="contain">
+                <label for="cost">Choose a Cost:</label>
+                <select name="cost" id="cost">
+                    <option value="cheap">$0-$25</option>
+                    <option value="medium">$25-$50</option>
+                    <option value="expensive">$50+</option>
+                </select>
+
+                <br />
+                <label for="location">Choose a Location:</label>
+                <select name="location" id="location">
+                    <option value="any">anywhere</option>
+                    <option value="inside">inside</option>
+                    <option value="outside">outside</option>
+                </select>
+            </div>
+            <div></div>
+                
+                <h2 class="shadowTxt">Your Date Is...</h2>
+                <p id="cheapAll"></p>
+
+                <div id="endButt">
+                    <input id="clickMe" type="button" value="Generate Basics" onclick="generateRoom();" />
+               </div>
+            </div>
+     
+
+
+</body>
+</html>
